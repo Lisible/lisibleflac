@@ -1,6 +1,9 @@
 #ifndef LFLAC_LISIBLEFLAC_H
 #define LFLAC_LISIBLEFLAC_H
 
-void lflac_print_hello(void);
+#include <stdbool.h>
+#include <stdio.h>
+
+bool lflac_decode(FILE *stream);
 
 #endif // LFLAC_LISIBLEFLAC_H
